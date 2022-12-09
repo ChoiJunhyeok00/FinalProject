@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.servlet.http.HttpSession;
+
 //@RequestMapping
 @Controller
 public class MarketController {
@@ -16,7 +18,7 @@ public class MarketController {
 
     @RequestMapping(value="/")
         public String home(){
-        return "redirect:list";
+        return "index";
     }
 
     @RequestMapping(value = "/board/list", method = RequestMethod.GET)
@@ -63,5 +65,12 @@ public class MarketController {
         else
             System.out.println("데이터 삭제 성공!!!");
         return "redirect:../list";
+    }
+
+    //로그아웃 하는 부분
+    @RequestMapping(value = "/board/logout")
+    public String logout(HttpSession session) {
+        session.invalidate();
+        return "redirect:/login/login";
     }
 }

@@ -93,6 +93,7 @@
   <br/>
 </table>
 <button type="button" onclick="location.href='add'">새글쓰기</button>
+<button type="button" onclick="location.href='logout'">logout</button>
 <%--<br/><a href="addpostform.jsp">Add New Post</a>--%>
 
 </body>

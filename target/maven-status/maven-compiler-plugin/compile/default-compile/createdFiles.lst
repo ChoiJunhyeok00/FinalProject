@@ -5,6 +5,7 @@ com/mycom/myapp/member/LoginController.class
 com/mycom/myapp/member/UserDAO.class
 com/mycom/myapp/market/MarketController.class
 com/mycom/myapp/market/MarketVO.class
+com/mycom/myapp/member/UserService.class
 com/mycom/myapp/market/MarketDAO.class
 com/mycom/myapp/member/UserVO.class
 com/mycom/myapp/util/LoginCheckInterceptor.class
