@@ -36,8 +36,10 @@
 
 </head>
 <body>
-<img src="../../resources/img/1.jpeg" height="250">
-<h2>한동인을 위한 중고거래 게시판</h2>
-<button type="button" onclick="location.href='./login/login'">로그인하기</button>
+<%--<img src="../../resources/img/1.jpeg" height="250">--%>
+<div style='width:100%; text-align:center; padding-top:100px'>
+    <h2>한동인을 위한 중고거래 게시판</h2>
+    <button type="button" onclick="location.href='./login/login'">로그인하기</button>
+</div>
 </body>
 </html>

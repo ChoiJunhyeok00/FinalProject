@@ -44,15 +44,15 @@
 </head>
 <body>
 <div style='width:100%; text-align:center; padding-top:100px'>
-<%--    <img src="../img/snowman.jsp" height="250">--%>
+<%--    <img src="../../resources/img/1.jpeg">--%>
     <form method="post" action="loginOk">
         <h1>한동인을 위한 중고거래 게시판</h1>
         <div><label>User ID: </label><input type="text" name="userid" /></div>
         <div><label>Password: </label>
         <input type="password" name="password" /></div>
         <button type="submit">login</button>
-        <button type="button" onclick="location.href='useradd'">회원가입</button>
     </form>
+    <button type="button" onclick="location.href='useradd'">회원가입</button>
 </div>
 </body>
 </html>
